@@ -1,4 +1,46 @@
-packages
+# created by pub #
 .buildlog
-pubspec.lock
 .pub/
+build/
+packages
+
+# created by dart2js #
+*.dart.js
+*.dart.precompiled.js
+*.js_
+*.js.deps
+*.js.map
+
+# Added by Jens #
+.idea
+.settings
+.svn
+.git
+.project
+
+# Include when developing application packages. #
+# pubspec.lock
+
+# OSX-OS #
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+# Windows-OS #
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.cab
+*.msi
+*.msm
+*.msp
+*.lnk
